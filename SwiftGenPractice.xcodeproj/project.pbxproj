@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894C10972387788A00C5E4AA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894C10962387788A00C5E4AA /* Colors.xcassets */; };
+		894C109B23877A1F00C5E4AA /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 894C109A23877A1F00C5E4AA /* swiftgen.yml */; };
+		894C109F23877A9B00C5E4AA /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894C109E23877A9B00C5E4AA /* Assets.swift */; };
 		89A9A3B52387723900F3CBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A9A3B42387723900F3CBAB /* AppDelegate.swift */; };
 		89A9A3B72387723900F3CBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A9A3B62387723900F3CBAB /* SceneDelegate.swift */; };
 		89A9A3B92387723900F3CBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A9A3B82387723900F3CBAB /* ViewController.swift */; };
 		89A9A3BC2387723900F3CBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A9A3BA2387723900F3CBAB /* Main.storyboard */; };
-		89A9A3BE2387723C00F3CBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A9A3BD2387723C00F3CBAB /* Assets.xcassets */; };
+		89A9A3BE2387723C00F3CBAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A9A3BD2387723C00F3CBAB /* Images.xcassets */; };
 		89A9A3C12387723C00F3CBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A9A3BF2387723C00F3CBAB /* LaunchScreen.storyboard */; };
 		C4E8606C45F42A4237F9EFFD /* Pods_SwiftGenPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580AFE5AFB9E360EC0570B90 /* Pods_SwiftGenPractice.framework */; };
 /* End PBXBuildFile section */
@@ -19,12 +22,15 @@
 /* Begin PBXFileReference section */
 		3128F4D7B65EEF03CC4456AF /* Pods-SwiftGenPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGenPractice.release.xcconfig"; path = "Target Support Files/Pods-SwiftGenPractice/Pods-SwiftGenPractice.release.xcconfig"; sourceTree = "<group>"; };
 		580AFE5AFB9E360EC0570B90 /* Pods_SwiftGenPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGenPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894C10962387788A00C5E4AA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		894C109A23877A1F00C5E4AA /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		894C109E23877A9B00C5E4AA /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		89A9A3B12387723900F3CBAB /* SwiftGenPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGenPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A9A3B42387723900F3CBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A9A3B62387723900F3CBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		89A9A3B82387723900F3CBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89A9A3BB2387723900F3CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		89A9A3BD2387723C00F3CBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A9A3BD2387723C00F3CBAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89A9A3C02387723C00F3CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A9A3C22387723C00F3CBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC406FA097A9910B3E2111DF /* Pods-SwiftGenPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGenPractice.debug.xcconfig"; path = "Target Support Files/Pods-SwiftGenPractice/Pods-SwiftGenPractice.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,8 +54,33 @@
 				CC406FA097A9910B3E2111DF /* Pods-SwiftGenPractice.debug.xcconfig */,
 				3128F4D7B65EEF03CC4456AF /* Pods-SwiftGenPractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		894C10952387786400C5E4AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89A9A3BD2387723C00F3CBAB /* Images.xcassets */,
+				894C10962387788A00C5E4AA /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		894C109923877A1F00C5E4AA /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				894C109A23877A1F00C5E4AA /* swiftgen.yml */,
+				894C109D23877A9B00C5E4AA /* Generated */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		894C109D23877A9B00C5E4AA /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				894C109E23877A9B00C5E4AA /* Assets.swift */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 		89A9A3A82387723900F3CBAB = {
@@ -73,11 +104,12 @@
 		89A9A3B32387723900F3CBAB /* SwiftGenPractice */ = {
 			isa = PBXGroup;
 			children = (
+				894C10952387786400C5E4AA /* Resources */,
 				89A9A3B42387723900F3CBAB /* AppDelegate.swift */,
+				894C109923877A1F00C5E4AA /* SwiftGen */,
 				89A9A3B62387723900F3CBAB /* SceneDelegate.swift */,
 				89A9A3B82387723900F3CBAB /* ViewController.swift */,
 				89A9A3BA2387723900F3CBAB /* Main.storyboard */,
-				89A9A3BD2387723C00F3CBAB /* Assets.xcassets */,
 				89A9A3BF2387723C00F3CBAB /* LaunchScreen.storyboard */,
 				89A9A3C22387723C00F3CBAB /* Info.plist */,
 			);
@@ -103,6 +135,7 @@
 				89A9A3AD2387723900F3CBAB /* Sources */,
 				89A9A3AE2387723900F3CBAB /* Frameworks */,
 				89A9A3AF2387723900F3CBAB /* Resources */,
+				894C10982387798400C5E4AA /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -152,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				89A9A3C12387723C00F3CBAB /* LaunchScreen.storyboard in Resources */,
-				89A9A3BE2387723C00F3CBAB /* Assets.xcassets in Resources */,
+				894C109B23877A1F00C5E4AA /* swiftgen.yml in Resources */,
+				894C10972387788A00C5E4AA /* Colors.xcassets in Resources */,
+				89A9A3BE2387723C00F3CBAB /* Images.xcassets in Resources */,
 				89A9A3BC2387723900F3CBAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +217,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		894C10982387798400C5E4AA /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen config run --config $SRCROOT/SwiftGenPractice/SwiftGen/swiftgen.yml\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -191,6 +244,7 @@
 			files = (
 				89A9A3B92387723900F3CBAB /* ViewController.swift in Sources */,
 				89A9A3B52387723900F3CBAB /* AppDelegate.swift in Sources */,
+				894C109F23877A9B00C5E4AA /* Assets.swift in Sources */,
 				89A9A3B72387723900F3CBAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

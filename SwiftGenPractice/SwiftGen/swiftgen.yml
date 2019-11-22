@@ -1,0 +1,7 @@
+xcassets:
+  inputs:
+    - ../Resources/Images.xcassets
+    - ../Resources/Colors.xcassets
+  outputs:
+    - templateName: swift4
+      output: ./Generated/Assets.swift
